@@ -4,7 +4,7 @@ SafeStay: An LLM-Assisted Trip Planner Built on Open City Data
 ## Table of Contents
 - [Features](#features)
 - [Prerequisites](#prerequisites)
-- [Task 1](#Task1:Incident-DataPipeline-with-Spark)
+- [Task 1](#task-1-incident-data-pipeline-with-spark)
 
 ## Features
 * **Police Incident Reports:** Compares crime levels in specific neighborhoods.
