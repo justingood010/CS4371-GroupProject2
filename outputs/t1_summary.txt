@@ -1,0 +1,19 @@
+=== TASK 1 SUMMARY ===
+
+--- Data Loading ---
+Initial raw rows loaded: 764124
+
+--- Cleaning Steps ---
+After removing duplicates: 764124 (Removed: 0)
+After removing missing dates: 764124 (Removed: 0)
+After removing missing neighborhood/coords: 753597 (Removed: 10527)
+
+--- Classification Mapping ---
+Crimes Against Persons: ASSAULT, BATTERY, ROBBERY, CRIMINAL SEXUAL ASSAULT, HOMICIDE, KIDNAPPING, STALKING, INTIMIDATION, HUMAN TRAFFICKING, OFFENSE INVOLVING CHILDREN, SEX OFFENSE.
+Crimes Against Property: THEFT, BURGLARY, MOTOR VEHICLE THEFT, ARSON, CRIMINAL DAMAGE, DECEPTIVE PRACTICE, CRIMINAL TRESPASS.
+Other: All remaining types, including NARCOTICS, OTHER NARCOTIC VIOLATION, WEAPONS VIOLATION, PUBLIC PEACE VIOLATION, etc.
+
+--- Summarization ---
+--- Dataset Info ---
+Number of unique neighbourhoods: 78
+Date range: 2022-01-01T00:00:00.000 to 2024-12-31T23:58:00.000
