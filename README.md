@@ -25,7 +25,7 @@ Paste your App Token into .env.example and rename to .env
 
 ### Create Virtual Environment
 ```powershell
-python 3 -m venv .venv
+python -m venv .venv
 source .venv/bin/activate
 ```
 
