@@ -20,6 +20,9 @@ Python 3.11+
 ### Obtain a City of Chicago API key
 Make an account at data.cityofchicago.org and request a free App Token in the developer settings.
 
+### Fill in environment variable
+Paste your App Token into .env.example and rename to .env
+
 ### Create Virtual Environment
 ```powershell
 python 3 -m venv .venv
@@ -30,9 +33,6 @@ source .venv/bin/activate
 ```powershell
 pip install -r requirements.txt
 ```
-
-### Fill in environment variable
-Paste your App Token into .env.example and rename to .env
 
 ### Run scripts
 ```powershell
