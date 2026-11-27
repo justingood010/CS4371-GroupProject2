@@ -84,7 +84,7 @@ while True:
                     print("Max retries reached for this chunk. Stopping script.")
                 time.sleep(5)
 
-        # Save the response to cache (even if it's empty, so we don't re-query the end)
+        # Save the response to cache
         cache_payload = {
             "received_at": time.time(),
             "data": data

@@ -8,8 +8,6 @@ from pyspark.sql.window import Window
 spark = SparkSession.builder.appName("ChicagoIncidentsClean").getOrCreate()
 spark.sparkContext.setLogLevel("ERROR")
 
-# We will write to the text file progressively. 
-# 'w' mode clears the file at the start.
 os.makedirs("outputs", exist_ok=True)
 log_file = "outputs/t1_summary.txt"
 
@@ -47,7 +45,6 @@ date_count = df_date.count()
 log_and_print(f"After removing missing dates: {date_count} (Removed: {dedup_count - date_count})")
 
 # 1c. Remove missing neighborhood (community_area) & invalid coordinates
-# First drop missing community_area
 df_neigh = df_date.dropna(subset=["community_area"])
 
 # Filter for Chicago's bounding box
